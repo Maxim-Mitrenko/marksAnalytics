@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  backend:
+    container_name: 'markAnalytics'
+    build: ./
+    image: 'analytics:1.0'
+    ports:
+      - '8090:8090'
